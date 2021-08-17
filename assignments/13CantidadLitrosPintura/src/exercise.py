@@ -1,7 +1,7 @@
 import math
 def main():
     #escribe tu código abajo de esta línea
-    Area =float(input("Area a pintar en metros:"))
+    Area =float(input("Area a pintar en metros: "))
     Rendimiento =float(input("Rendimiento (m2/l): "))
     Litros =(int(math.ceil(Area/Rendimiento)))
     print("Litros a comprar: "+str(Litros))
